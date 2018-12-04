@@ -29,10 +29,4 @@ xmlfiles = function(name) {
   return (new.count)
   }
 
-new.files <- list("20180731.xml","20180731_14.xml","20180731_15.xml","20180731_16.xml",
-                  "20180731_17.xml", "20180731_18.xml", "20180731_19.xml","20180731_20.xml", "20180731_21.xml", "20180731_22.xml", "20180731_23.xml")
 
-for (a in new.files){
-  datas <- xmlfiles(a)
-  print(datas)
-}
